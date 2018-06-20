@@ -3,10 +3,16 @@
   "created_at": "2018-02-26",
   "updated_at": "2018-02-26",
   "title": "Path Traversal",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "626",
   "publish_date": "2018-02-26",
-  "cves": ["CVE-2018-3727"],
+  "cves": [
+    "CVE-2018-3727"
+  ],
   "vulnerable_versions": "<=1.1.1",
   "patched_versions": null,
   "overview": "626 Path Traversal allows to read arbitrary file from remote server",

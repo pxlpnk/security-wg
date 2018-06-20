@@ -5,9 +5,15 @@
   "created_at": "2018-01-18",
   "updated_at": "2018-05-09",
   "publish_date": "2018-05-09",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "html-pages",
-  "cves": ["CVE-2018-3744"],
+  "cves": [
+    "CVE-2018-3744"
+  ],
   "vulnerable_versions": "<=2.0.9",
   "patched_versions": ">=2.1.0",
   "recommendation": "Update to html-pages@2.1.0 or higher.",

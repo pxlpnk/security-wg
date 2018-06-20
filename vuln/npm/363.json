@@ -3,10 +3,16 @@
   "created_at": "2018-01-23",
   "updated_at": "2018-01-23",
   "title": "Directory Traversal",
-  "author": "bl4de (https://twitter.com/_bl4de)",
+  "author": {
+    "name": "bl4de",
+    "website": "https://twitter.com/_bl4de",
+    "username": null
+  },
   "module_name": "serve",
   "publish_date": "2018-01-23",
-  "cves": ["CVE-2018-3712"],
+  "cves": [
+    "CVE-2018-3712"
+  ],
   "vulnerable_versions": "<=6.4.8",
   "patched_versions": ">=6.4.9",
   "overview": "serve handles directory listing on its own and does not protect against listing of any directory on the remote server.",
